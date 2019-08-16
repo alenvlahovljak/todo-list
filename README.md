@@ -2,6 +2,7 @@
  Used technologies:
 |----|---|----------|------|-------|----------|-------|
 |HTML|CSS|JavaScript|jQuery|Node.js|Express.js|MongoDB|
+|    |   |          |      |       |          |       |
 
 # Getting started
 
