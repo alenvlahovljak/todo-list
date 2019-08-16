@@ -1,12 +1,12 @@
 # todo-list
 
  Used technologies:
-|-----------|-----------|
-|Front End  |Back End   |
-|HTML       |Node.js    |
-|CSS        |Express.js |
-|JavaScript |MongoDB    |
-|jQuery     |           |
+|-----------||-----------|
+|Front End  ||Back End   |
+|HTML       ||Node.js    |
+|CSS        ||Express.js |
+|JavaScript ||MongoDB    |
+|jQuery     ||           |
 
 
 # Getting started
