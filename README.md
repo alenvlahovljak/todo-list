@@ -1,9 +1,8 @@
 # todo-list
  Used technologies:
-|----|---|----------|------|-------|----------|-------|
-|HTML|CSS|JavaScript|jQuery|Node.js|Express.js|MongoDB|
-|    |   |          |      |       |          |       |
-
+|-----------|
+|HTML       |
+|CSS        |
 # Getting started
 
 To get the Node server running locally:
