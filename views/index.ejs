@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<link rel="stylesheet" type="text/css" href="/css/todos.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer type="text/javascript" src="/js/todos.js"></script>
+</head>
+<body>
+
+<div id="container">
+    <h1>To-Do List <i class="fa fa-plus"></i></h1>
+    <form action="/" method="POST">
+        <input type="text" placeholder="Add New Todo" name="todo">
+    </form>
+	<ul>
+        <%for(let i=0; i<todos.length; i++){%>
+            <li>
+                <span>
+                    <form id="form" action="/<%=todos[i]._id%>?_method=DELETE" method="POST">
+                        <button class="fa"><i class="fa fa-trash"></i></button>
+                    </form>
+                </span>
+                <%=todos[i].todo%>
+            </li>
+        <%}%>
+	</ul>
+</div>
+</body>
+</html>
